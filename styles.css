@@ -1,0 +1,226 @@
+*{
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient( to right, #065321,#0c6d2e);
+    /* display: flex; */
+}
+
+header{
+
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    background-color: #065321;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.137);
+    border-radius: 0 0  15px 15px;
+    padding-top: 20px;
+
+}
+
+nav{
+    /* border: 1px solid red; */
+    width: 100%;
+    display:inline-block;
+    justify-content: space-around;
+}
+
+header nav ul{
+    /* border:1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icones-nav-bar{
+    /* border: 1px solid white; */
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones{
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.icones:hover{
+    transform: scale(1.10);
+}
+.logovc{
+    /* border: 1px solid purple; */
+    width: 150px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.logovc:hover{
+    transform: scale(1.05);
+}
+
+
+
+header nav ul li{
+    /* border: 1px solid green; */
+    list-style: none;
+    font-size: 25px;
+    transition: .2s;
+}
+
+header nav ul li:hover{
+    transform: scale(1.05);
+
+}
+
+header nav ul li a{ 
+    color: white;
+    text-decoration: none;
+}
+
+/*fim do header*/
+
+/*meio do site*/
+
+main{
+    /* border: 10px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding-bottom: 80px;
+}
+
+.slogan{
+    /* border: 1px solid purple; */
+    font-weight: 600;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.carrossel{
+    box-shadow: 2px 2px 10px #80cc28;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 400px;
+    width: 600px;
+}
+
+.container{
+    /* border: 5px solid red; */
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.carrossel .container img{
+    /* border: 5px solid blue; */
+    object-fit: cover;
+    height: 400px;
+    width: 600px;
+}
+
+.formulario{
+    /* border: 1px solid red; */
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display:grid;
+    justify-content: center;
+
+}
+label{
+    font-size: 20px;
+}
+
+#nome, #email{
+    height: 50px;
+    width: 600px;
+    background-color: rgb(68, 135, 68);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 20px;
+}
+
+input::placeholder{
+    color: rgba(0, 0, 0, 0.596);
+    font-size: 15px;
+}
+
+.faleconosco, label{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    height: 90px;
+    background-color: rgb(68, 135, 68);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    resize: none;
+    outline: none;
+    padding: 20px;
+    overflow: hidden;
+}
+
+textarea::placeholder{
+    color:rgba(0, 0, 0, 0.596);
+    font-size: 15px;
+}
+
+.div-enviar{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+}
+.enviar{
+    background-color: #80cc28;
+    color: rgb(0, 0, 0);
+    height: 60px;
+    width: 180px;
+    border-radius: 20px;
+    border: none;
+    font-size: 25px;
+    font-weight: 800;
+    transition: .2s;
+}
+
+.enviar:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #80cc28;
+}
+
+form{
+    /* border: 1px solid blue; */
+    display: grid;
+    justify-content: center;
+    
+}
+
+/*fim do formulario*/
+
+footer{
+    display: flex;
+    padding: 36px;
+    background-color: #065321;
+    box-shadow: 0px -5px 10px rgba(255, 255, 255, 0.254);
+    border-radius: 15px 15px 0 0;
+}
+
+
+
+
+
+
+
